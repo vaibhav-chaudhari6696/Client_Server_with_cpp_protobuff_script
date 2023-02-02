@@ -1,0 +1,9 @@
+syntax = "proto3";
+package assignment;
+
+message messageinfo {
+    string txtmessage=1;
+    int32 id=2;
+    bool flg=3;
+
+}
